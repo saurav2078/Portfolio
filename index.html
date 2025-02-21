@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saurav Shrestha | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">Saurav .</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div
+          class="menu-toggle"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          &#9776;
+        </div>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          I'm Saurav Shrestha, a passionate web developer and problem solver.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <img src="profile.jpg" alt="Saurav Shrestha" class="profile-pic" />
+          <div class="about-text">
+            <p>
+              Hi, I'm <strong>Saurav Shrestha</strong>, a passionate
+              <strong>Computer Science and Information Technology</strong>
+              student currently in my <strong>5th semester</strong> at
+              <strong>St. Lawrence College</strong>. I have a keen interest in
+              <strong
+                >web development, software engineering, and
+                problem-solving</strong
+              >.
+            </p>
+            <p>
+              I enjoy building user-friendly websites and applications,
+              continuously learning new technologies, and tackling real-world
+              challenges through coding. My goal is to become a skilled
+              <strong>developer</strong> who creates impactful digital
+              solutions.
+            </p>
+            <p>
+              Apart from coding, I love exploring new technologies, working on
+              projects, and collaborating with like-minded individuals.
+            </p>
+            <div class="skills">
+              <span><i class="fa-brands fa-html5"></i> HTML</span>
+              <span><i class="fa-brands fa-css3-alt"></i> CSS</span>
+              <span><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span><i class="fa-brands fa-python"></i> Python</span>
+              <span><i class="fa-brands fa-c"></i> programming</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>
+          Currently, I don't have any completed projects, but I'm actively
+          learning and working on new ideas. Stay tuned for updates!
+        </p>
+        <!-- Example project cards (can be updated later) -->
+        <div class="project-list">
+          <div class="project-card">
+            <img src="project1.jpg" alt="Project 1" />
+            <h3>Project Title</h3>
+            <p>A short description of the project goes here.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+          <div class="project-card">
+            <img src="project2.jpg" alt="Project 2" />
+            <h3>Project Title</h3>
+            <p>A short description of the project goes here.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+          <div class="project-card">
+            <img src="project3.jpg" alt="Project 3" />
+            <h3>Project Title</h3>
+            <p>A short description of the project goes here.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to reach out! Fill in the form below, and I'll get back to
+          you as soon as possible.
+        </p>
+        <form id="contact-form">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+            minlength="6"
+            maxlength="16"
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p id="form-status"></p>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>
+        &copy; <span id="year"></span> Saurav Shrestha. All rights reserved.
+      </p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <button id="back-to-top">↑ Back to Top</button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
